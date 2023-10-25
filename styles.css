@@ -1,0 +1,425 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 0px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    height:68px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo para los botones de navegación */
+nav ul li a {
+    display: inline-block;
+    padding: 20px 10px; /* Ajustar el espaciado según tus preferencias */
+    background-color: #fff; 
+    color: #333; 
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+}
+/* Estilos para la barra de navegación */
+nav {
+    display: inline-block;
+}
+
+/* Agregar estilo a los botones en hover (cuando se pasa el mouse) */
+nav ul li a:hover,
+.search-form button:hover {
+    background-color: #333;
+    color: #fff; 
+}
+
+/* Estilos para el contenido principal */
+.hero {
+    text-align: center;
+    color: #000000;
+    padding: 227px;
+    background-image: url('https://yagmourio.vtexassets.com/assets/vtex.file-manager-graphql/images/843bd19e-152f-4220-a3dd-92313ee04dec___458b6209bb3f07b2159b832258531f06.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 220px;
+    
+    }
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slide:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+}
+
+/* Estilos para la sección "Productos" */
+#productos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.productos-destacados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.producto {
+    flex: 0 0 calc(25% - 10px);
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.producto:last-child {
+    margin-right: 0;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    font-size: 18px; 
+    color: #000000; 
+    font-family: 'Times New Roman', sans-serif; 
+}
+
+
+.producto p {
+    font-size: 18px; 
+    color: #000000; 
+    font-family: Verdana, sans-serif; 
+}
+
+.precio-oferta {
+    font-weight: bold;
+    font-size: 20px; 
+    color: #000000; 
+    font-family: 'Times New Roman', sans-serif; 
+}
+#productos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px;
+}
+
+.producto {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.productos-sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.producto {
+    flex: 0 0 calc(20% - 10px);
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff(255, 255, 255, 0.1);
+}
+
+.producto:last-child {
+    margin-right: 0;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#destacados {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+#destacados h2.titulo-destacados {
+    text-align: center;
+}
+/* Estilos para el formulario de contacto y la sección de contacto */
+#contacto,
+#contacto-form {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#contacto h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#contacto-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contacto-form input[type="text"],
+#contacto-form input[type="email"],
+#contacto-form textarea {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#contacto-form textarea {
+    height: 150px;
+}
+
+#contacto-form button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#contacto-form button:hover {
+    background-color: #c0392b;
+}
+.contact-info ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li i {
+    margin-right: 10px; 
+}
+
+/* Estilos de las imágenes de los productos */
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Estilos para la sección "DESTACADOS" */
+#sale {
+    padding: 50px 0;
+    background-color: #e4e409;
+}
+
+#sale h2.titulo-destacados {
+    text-align: left;
+}
+
+
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    float: left;
+    margin-left: 20px;
+}
+
+/* Estilo para la imagen del logo */
+.logo-container img {
+    max-height: 80px;
+    max-width: 80%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Estilos para el formulario de búsqueda */
+.search-form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-form input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #222;
+}
+.contact-info ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.contact-info ul li {
+    margin-bottom: 10px; 
+}
+
+.contact-info ul li i {
+    margin-right: 10px; 
+}
+
+.menu-btn {
+    display:none;
+}
+
+
+@media screen and (max-width: 851px) {
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .producto {
+        flex: 0 0 calc(100% - 20px);
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .producto img {
+        max-width: 100%;
+        height: auto;
+    }
+   
+
+/* Media Query para dispos  itivos móviles (ancho máximo de 767px) */
+
+    .logo-container {
+        display: none;
+    }
+    /* Mostrar el botón del menú */
+    .menu-btn {
+        display: block;
+
+    }
+     
+    /* Ocultar la barra de navegación normal */
+    nav ul {
+        display: none;
+    }
+
+    .ul-nav {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        align-items: center; 
+    }
+
+    .menu-btn.hide + nav ul {
+    display: none;
+}
+   
+}
+
+
+@media screen and (max-width: 1179px) {
+    .search-form {
+        display: none;
+    }
+}
+

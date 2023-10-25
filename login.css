@@ -1,0 +1,74 @@
+/* Estilos para el formulario de inicio de sesión */
+#login {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#login h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#login-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#login-form button:hover {
+    background-color: #222;
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    float: left;
+    margin-left: 20px;
+}
+
+/* Estilo para la imagen del logo */
+.logo-container img {
+    max-height: 80px;
+    max-width: 80%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
